@@ -23,6 +23,10 @@
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>jalopy-maven-plugin</artifactId>
     <version>1.5rc3</version>
+    <configuration>
+     <convention>jalopy.xml</convention>
+    </configuration>
+
    </plugin>
   </plugins>
  </build>
